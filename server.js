@@ -41,23 +41,25 @@ app.get('/api/notes', (req, res) => {
 });
 
 app.post('/api/notes', (req, res) => {
-  
+
+  const { title, text } = req.body;
+
+  if(title && text){
+    // object created for new notes
+    const createNote = {
+      title,
+      text, 
+    };
+    //appends created note to current notes
+    readAndAppend(createNote, NotesDb);
+  } else{
+    res.json('error in making a new note');
+  }
 })
 
-app.post('/api', (req, res) => res.json(NotesDb));
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.get('*', (req, res) => {
+  
+});
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
