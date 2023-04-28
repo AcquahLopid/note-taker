@@ -19,7 +19,6 @@
 | -------------           |:-------------:|
 | Node.js                 | [https://nodejs.org/en](https://nodejs.org/en) | 
 | npm                     | [https://www.npmjs.com/](https://www.npmjs.com/)      |
-| Jest                    | [https://www.npmjs.com/package/jest?activeTab=readme](https://www.npmjs.com/package/jest?activeTab=readme) |
 | Express.js              | [https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
 | Git                     | [https://git-scm.com/](https://git-scm.com/)     | 
 | JavaScript              | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
