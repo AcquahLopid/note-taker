@@ -11,6 +11,8 @@
 
 *[Author](#author)
 
+*[Deployed](#deployed)
+
 ## Technology used
 
 | Technology Used         | Resource URL  |
@@ -60,3 +62,6 @@ addNote(note) {
 [GitLab](https://ucb.bootcampcontent.com/emanuelmolina2k-BAsayK)
 
 ```
+## Deployed
+
+[Heroku Deplyed app](https://young-waters-35716.herokuapp.com/)
